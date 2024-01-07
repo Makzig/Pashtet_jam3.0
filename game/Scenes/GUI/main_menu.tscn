@@ -1,0 +1,53 @@
+[gd_scene load_steps=3 format=3 uid="uid://b07o25ej3jnup"]
+
+[ext_resource type="Theme" uid="uid://dyv68n2h7j1yp" path="res://MainTheme.tres" id="1_8y0qm"]
+[ext_resource type="Script" path="res://Scenes/GUI/main_menu.gd" id="1_hqsfp"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_hqsfp")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.7
+anchor_bottom = 0.7
+offset_top = -112.0
+offset_right = 273.0
+offset_bottom = 100.0
+grow_vertical = 0
+theme_override_constants/separation = 40
+
+[node name="Play" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_8y0qm")
+text = "Играть"
+
+[node name="Settings" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_8y0qm")
+text = "Настройки
+"
+
+[node name="Exit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_8y0qm")
+text = "Пойти куда подальше
+"
+
+[connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="VBoxContainer/Settings" to="." method="_on_settings_pressed"]
+[connection signal="pressed" from="VBoxContainer/Exit" to="." method="_on_exit_pressed"]

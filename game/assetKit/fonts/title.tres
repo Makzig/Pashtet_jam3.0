@@ -1,0 +1,12 @@
+[gd_resource type="FontFile" load_steps=2 format=3]
+
+[ext_resource type="FontFile" uid="uid://0pb2pxp4hx33" path="res://assetKit/fonts/Jellee-Roman.otf" id="1"]
+
+[resource]
+
+size = 72
+use_mipmaps = false
+use_filter = true
+font_data = ExtResource( 1 )
+_sections_unfolded = [ "Font", "Settings" ]
+

@@ -1,0 +1,73 @@
+[gd_scene load_steps=4 format=3 uid="uid://dfwme6l2x5a17"]
+
+[ext_resource type="Script" path="res://Scenes/GUI/sound_settings.gd" id="1_70njx"]
+[ext_resource type="FontFile" uid="uid://c17qdyjkpq45b" path="res://Fonts/Assya Font Official.otf" id="2_hyc5k"]
+[ext_resource type="Theme" uid="uid://dyv68n2h7j1yp" path="res://MainTheme.tres" id="3_qnppb"]
+
+[node name="SoundSettings" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_70njx")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.968627, 0.533333, 1, 1)
+
+[node name="VBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -176.0
+offset_top = -20.0
+offset_right = 176.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2, 2)
+pivot_offset = Vector2(200, 0)
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_hyc5k")
+text = "Общая громкость
+
+"
+
+[node name="SoundSlider" type="HSlider" parent="VBoxContainer"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+min_value = -50.0
+max_value = 50.0
+
+[node name="BackButton" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0.607843)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.462
+anchor_top = 0.6
+anchor_right = 0.506
+anchor_bottom = 0.622
+offset_left = 0.640015
+offset_top = -8.00003
+offset_right = 1.31995
+offset_bottom = 7.15997
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("3_qnppb")
+text = "Назад
+"
+
+[connection signal="value_changed" from="VBoxContainer/SoundSlider" to="." method="_on_sound_slider_value_changed"]
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
