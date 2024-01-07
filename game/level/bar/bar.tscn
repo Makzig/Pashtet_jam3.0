@@ -1,27 +1,28 @@
-[gd_scene load_steps=83 format=3 uid="uid://stt4r4acb3sg"]
+[gd_scene load_steps=84 format=3 uid="uid://stt4r4acb3sg"]
 
-[ext_resource type="PackedScene" uid="uid://cwlei7skvi5j0" path="res://Assets/Low Poly Furniture/Doors/Door A.fbx" id="2_0e8u6"]
-[ext_resource type="Texture2D" uid="uid://b67b8jfstu1vd" path="res://Assets/texture/floor/wood_table_worn_diff_1k.jpg" id="3_mijy6"]
-[ext_resource type="Texture2D" uid="uid://dhuacwpndmpam" path="res://Assets/texture/marble/marble_36_basecolor-1K.png" id="4_muc0d"]
-[ext_resource type="PackedScene" uid="uid://dvi58v61ent1b" path="res://Assets/Low Poly Furniture/Miscellaneous/Mug.fbx" id="5_5itlc"]
-[ext_resource type="PackedScene" uid="uid://bibv4wc4upl30" path="res://Assets/Low Poly Furniture/Tables/Rounded Table B.fbx" id="6_0b20m"]
-[ext_resource type="PackedScene" uid="uid://bjnde8fvbll6o" path="res://Assets/Low Poly Furniture/Electronics/TV B.fbx" id="7_nshj2"]
-[ext_resource type="PackedScene" uid="uid://dl8oe2xhqb7jq" path="res://Assets/Low Poly Furniture/Miscellaneous/Glass.fbx" id="8_k5tp2"]
-[ext_resource type="Texture2D" uid="uid://dno8ihta4525o" path="res://Assets/texture/floor/wood_floor_diff_1k.jpg" id="9_1sf8u"]
-[ext_resource type="Texture2D" uid="uid://dbykiqe4ta0k3" path="res://Assets/texture/wall/woodparquet_87-1K/woodparquet_87_basecolor-1K.png" id="10_k7kaf"]
-[ext_resource type="Texture2D" uid="uid://dsq0qmabi28sd" path="res://Assets/texture/wall/woodparquet_87-1K/woodparquet_87_ambientocclusion-1K.png" id="11_4fr6k"]
-[ext_resource type="Texture2D" uid="uid://tlfyv0mf8cap" path="res://Assets/texture/wall/woodparquet_87-1K/woodparquet_87_height-1K.png" id="12_phw43"]
-[ext_resource type="Texture2D" uid="uid://2l3rjqeymsib" path="res://Assets/texture/wall/woodparquet_87-1K/woodparquet_87_metallic-1K.png" id="13_troji"]
-[ext_resource type="Texture2D" uid="uid://b7qrq2v6b8k8x" path="res://Assets/texture/wall/woodparquet_87-1K/woodparquet_87_normal-1K.png" id="14_jsyns"]
-[ext_resource type="Texture2D" uid="uid://c2su58ao8fyhi" path="res://Assets/texture/wall/woodparquet_87-1K/woodparquet_87_roughness-1K.png" id="15_v8c4h"]
-[ext_resource type="Texture2D" uid="uid://b0urcnvwpgmny" path="res://Assets/texture/carpet/1K-fabric_32-diffuse.jpg" id="16_gc3dr"]
-[ext_resource type="PackedScene" uid="uid://xskavnnhb0c3" path="res://Assets/Low Poly Furniture/Miscellaneous/Clock.fbx" id="17_akkju"]
-[ext_resource type="PackedScene" uid="uid://brubeeom14cn1" path="res://Assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/shelf_B_large.fbx" id="18_gqutj"]
-[ext_resource type="PackedScene" uid="uid://b58hv3v5b4qby" path="res://Assets/Low Poly Furniture/Chairs/Chair A.fbx" id="18_xrf0l"]
-[ext_resource type="PackedScene" uid="uid://bopmxbmn4ryco" path="res://Assets/KayKit_Adventurers_1.0_FREE/Characters/fbx/Rogue.fbx" id="19_ebtug"]
-[ext_resource type="PackedScene" uid="uid://5xjockapwwtn" path="res://Assets/Low Poly Furniture/Doors/Door B.fbx" id="20_gkmy4"]
-[ext_resource type="PackedScene" uid="uid://cotiux04hsmu4" path="res://Assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/pictureframe_large_B.fbx" id="21_3rld0"]
-[ext_resource type="PackedScene" uid="uid://d3i8hfasck6md" path="res://Assets/Low Poly Furniture/Kitchen/simple bottle.fbx" id="22_mg3ol"]
+[ext_resource type="Script" path="res://level/bar/bar.gd" id="1_xw23d"]
+[ext_resource type="PackedScene" uid="uid://cwlei7skvi5j0" path="res://assets/Low Poly Furniture/Doors/Door A.fbx" id="2_0e8u6"]
+[ext_resource type="Texture2D" uid="uid://b67b8jfstu1vd" path="res://assets/texture/floor/wood_table_worn_diff_1k.jpg" id="3_mijy6"]
+[ext_resource type="Texture2D" uid="uid://dhuacwpndmpam" path="res://assets/texture/marble/marble_36_basecolor-1K.png" id="4_muc0d"]
+[ext_resource type="PackedScene" uid="uid://dvi58v61ent1b" path="res://assets/Low Poly Furniture/Miscellaneous/Mug.fbx" id="5_5itlc"]
+[ext_resource type="PackedScene" uid="uid://bibv4wc4upl30" path="res://assets/Low Poly Furniture/Tables/Rounded Table B.fbx" id="6_0b20m"]
+[ext_resource type="PackedScene" uid="uid://bjnde8fvbll6o" path="res://assets/Low Poly Furniture/Electronics/TV B.fbx" id="7_nshj2"]
+[ext_resource type="PackedScene" uid="uid://dl8oe2xhqb7jq" path="res://assets/Low Poly Furniture/Miscellaneous/Glass.fbx" id="8_k5tp2"]
+[ext_resource type="Texture2D" uid="uid://dno8ihta4525o" path="res://assets/texture/floor/wood_floor_diff_1k.jpg" id="9_1sf8u"]
+[ext_resource type="Texture2D" uid="uid://dbykiqe4ta0k3" path="res://assets/texture/wall/woodparquet_87-1K/woodparquet_87_basecolor-1K.png" id="10_k7kaf"]
+[ext_resource type="Texture2D" uid="uid://dsq0qmabi28sd" path="res://assets/texture/wall/woodparquet_87-1K/woodparquet_87_ambientocclusion-1K.png" id="11_4fr6k"]
+[ext_resource type="Texture2D" uid="uid://tlfyv0mf8cap" path="res://assets/texture/wall/woodparquet_87-1K/woodparquet_87_height-1K.png" id="12_phw43"]
+[ext_resource type="Texture2D" uid="uid://2l3rjqeymsib" path="res://assets/texture/wall/woodparquet_87-1K/woodparquet_87_metallic-1K.png" id="13_troji"]
+[ext_resource type="Texture2D" uid="uid://b7qrq2v6b8k8x" path="res://assets/texture/wall/woodparquet_87-1K/woodparquet_87_normal-1K.png" id="14_jsyns"]
+[ext_resource type="Texture2D" uid="uid://c2su58ao8fyhi" path="res://assets/texture/wall/woodparquet_87-1K/woodparquet_87_roughness-1K.png" id="15_v8c4h"]
+[ext_resource type="Texture2D" uid="uid://b0urcnvwpgmny" path="res://assets/texture/carpet/1K-fabric_32-diffuse.jpg" id="16_gc3dr"]
+[ext_resource type="PackedScene" uid="uid://xskavnnhb0c3" path="res://assets/Low Poly Furniture/Miscellaneous/Clock.fbx" id="17_akkju"]
+[ext_resource type="PackedScene" uid="uid://brubeeom14cn1" path="res://assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/shelf_B_large.fbx" id="18_gqutj"]
+[ext_resource type="PackedScene" uid="uid://b58hv3v5b4qby" path="res://assets/Low Poly Furniture/Chairs/Chair A.fbx" id="18_xrf0l"]
+[ext_resource type="PackedScene" uid="uid://5xjockapwwtn" path="res://assets/Low Poly Furniture/Doors/Door B.fbx" id="20_gkmy4"]
+[ext_resource type="PackedScene" uid="uid://cotiux04hsmu4" path="res://assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/pictureframe_large_B.fbx" id="21_3rld0"]
+[ext_resource type="PackedScene" uid="uid://d3i8hfasck6md" path="res://assets/Low Poly Furniture/Kitchen/simple bottle.fbx" id="22_mg3ol"]
+[ext_resource type="PackedScene" uid="uid://d01joas52axb" path="res://scenes/objects/main_character.tscn" id="23_qxs5y"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_k46e5"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -403,6 +404,7 @@ points = PackedVector3Array(-0.00981993, -0.0155048, 0.00144977, 0.0102206, -0.0
 points = PackedVector3Array(-0.00981993, -0.0155048, 0.00144977, 0.0102206, -0.0155048, 0.00144977, -0.00981993, -0.0155048, 0.00362673, -0.0101023, -0.0151384, 0.00144977, -0.0087004, -0.012992, -0.019248, -0.00851281, -0.0131802, -0.019248, 0.010503, -0.0151384, 0.00144977, 0.0102206, -0.0155048, 0.00362673, 0.00864719, -0.0131802, -0.019248, 0.00883479, -0.012992, -0.019248, -0.00981993, -0.0151384, 0.00518442, -0.0101023, -0.0151384, 0.00362673, -0.0101023, 0.00615696, 0.00144977, -0.0087004, 0.00722396, -0.0192575, -0.00851281, -0.012992, -0.0195052, 0.010503, 0.00615696, 0.00144977, 0.010503, -0.0151384, 0.00362673, 0.00883479, 0.00722396, -0.0192575, 0.0102206, -0.0151384, 0.00518442, 0.00864719, -0.012992, -0.0195052, -0.00922487, 0.00651097, 0.02915, -0.00959199, 0.00651097, 0.0286403, -0.0101023, 0.00615696, 0.00362673, -0.00959199, 0.00941736, 0.0286403, -0.0087004, 0.00870686, -0.0192575, -0.00851281, 0.00722396, -0.0195148, 0.00972637, 0.00941736, 0.0286403, 0.010503, 0.00615696, 0.00362673, 0.00883479, 0.00870686, -0.0192575, 0.00972637, 0.00651097, 0.0286403, 0.00864719, 0.00722396, -0.0195148, 0.00935925, 0.00651097, 0.02915, -0.00922487, 0.00941736, 0.02915, -0.00922487, 0.00978623, 0.0286403, -0.00851281, 0.00889253, -0.0192575, -0.00851281, 0.00870686, -0.0195148, 0.00935925, 0.00978623, 0.0286403, 0.00935925, 0.00941736, 0.02915, 0.00864719, 0.00870686, -0.0195148, 0.00864719, 0.00889253, -0.0192575)
 
 [node name="bar" type="Node3D"]
+script = ExtResource("1_xw23d")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_fbf25")
@@ -1040,5 +1042,5 @@ transform = Transform3D(0.037, 0, 0, 0, 0.037, 0, 0, 0, 0.037, 1.76146, 0.600288
 [node name="Root Scene27" parent="map" instance=ExtResource("22_mg3ol")]
 transform = Transform3D(0.037, 0, 0, 0, 0.037, 0, 0, 0, 0.037, 1.87106, 0.600287, -3.39587)
 
-[node name="Root Scene" parent="." instance=ExtResource("19_ebtug")]
-transform = Transform3D(0.137341, 0, -0.990524, 0, 1, 0, 0.990524, 0, 0.137341, 2.85923, -0.139349, 2.10172)
+[node name="Main character" parent="." instance=ExtResource("23_qxs5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.62316)

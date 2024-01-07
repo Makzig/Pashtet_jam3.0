@@ -1,34 +1,35 @@
-[gd_scene load_steps=86 format=3 uid="uid://c8lw78krxxfx5"]
+[gd_scene load_steps=87 format=3 uid="uid://c8lw78krxxfx5"]
 
-[ext_resource type="PackedScene" uid="uid://cwlei7skvi5j0" path="res://Assets/Low Poly Furniture/Doors/Door A.fbx" id="1_jbd3b"]
-[ext_resource type="Texture2D" uid="uid://c80eom34ffdat" path="res://Assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/couch-c22a85732141079514e5c6a5bcd2ef84_furniturebits_texture.png" id="2_v81fa"]
-[ext_resource type="Texture2D" uid="uid://n2u5yfj1dp6a" path="res://Assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/armchair-e48995902994371637c660cdea0f72b3_furniturebits_texture.png" id="3_pq0sg"]
-[ext_resource type="Texture2D" uid="uid://b67b8jfstu1vd" path="res://Assets/texture/floor/wood_table_worn_diff_1k.jpg" id="4_iqgws"]
-[ext_resource type="Texture2D" uid="uid://bpv0uppge3hv2" path="res://Assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/table_medium-d11a86b47add4b4e3eb34d545239a058_furniturebits_texture.png" id="4_wt36l"]
-[ext_resource type="PackedScene" uid="uid://bc703y3iiss2p" path="res://Assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/cactus_small_A.fbx" id="5_cpsnk"]
-[ext_resource type="Texture2D" uid="uid://dhuacwpndmpam" path="res://Assets/texture/marble/marble_36_basecolor-1K.png" id="5_hfbg1"]
-[ext_resource type="Texture2D" uid="uid://dno8ihta4525o" path="res://Assets/texture/floor/wood_floor_diff_1k.jpg" id="6_alnsx"]
-[ext_resource type="PackedScene" uid="uid://c83maqrtgy4s8" path="res://Assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/cactus_small_B.fbx" id="6_gtg8l"]
-[ext_resource type="PackedScene" uid="uid://bam5muoxvn6jj" path="res://Assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/cactus_medium_B.fbx" id="7_75mmn"]
-[ext_resource type="Texture2D" uid="uid://dbykiqe4ta0k3" path="res://Assets/texture/wall/woodparquet_87-1K/woodparquet_87_basecolor-1K.png" id="7_clxfm"]
-[ext_resource type="Texture2D" uid="uid://dsyg7a7enbgt7" path="res://Assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/chair_C-a83366440bdac33d2ac01cfde1085ad8_furniturebits_texture.png" id="8_j283d"]
-[ext_resource type="Texture2D" uid="uid://dsq0qmabi28sd" path="res://Assets/texture/wall/woodparquet_87-1K/woodparquet_87_ambientocclusion-1K.png" id="8_rvr20"]
-[ext_resource type="Texture2D" uid="uid://tlfyv0mf8cap" path="res://Assets/texture/wall/woodparquet_87-1K/woodparquet_87_height-1K.png" id="9_g36si"]
-[ext_resource type="PackedScene" uid="uid://drinykdg1wi0u" path="res://Assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/lamp_standing.fbx" id="9_utc0n"]
-[ext_resource type="Texture2D" uid="uid://2l3rjqeymsib" path="res://Assets/texture/wall/woodparquet_87-1K/woodparquet_87_metallic-1K.png" id="10_yp3jx"]
-[ext_resource type="Texture2D" uid="uid://b7qrq2v6b8k8x" path="res://Assets/texture/wall/woodparquet_87-1K/woodparquet_87_normal-1K.png" id="11_wftip"]
-[ext_resource type="PackedScene" uid="uid://bkvu4uqvcp0df" path="res://Assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/pictureframe_small_A.fbx" id="12_a5ljy"]
-[ext_resource type="Texture2D" uid="uid://c2su58ao8fyhi" path="res://Assets/texture/wall/woodparquet_87-1K/woodparquet_87_roughness-1K.png" id="12_k20wm"]
-[ext_resource type="PackedScene" uid="uid://ydsqyb5ouphx" path="res://Assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/book_single.fbx" id="13_ga13w"]
-[ext_resource type="Texture2D" uid="uid://b0urcnvwpgmny" path="res://Assets/texture/carpet/1K-fabric_32-diffuse.jpg" id="13_xxtig"]
-[ext_resource type="PackedScene" uid="uid://dhm8gmmdv5qgq" path="res://Assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/lamp_table.fbx" id="14_2rbkd"]
-[ext_resource type="Texture2D" uid="uid://pinip75dbvs0" path="res://Assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/cactus_small_A-2fbba6c0a9a9e60f62ea4ad0f5a4cee9_furniturebits_texture.png" id="14_yioa4"]
-[ext_resource type="PackedScene" uid="uid://pcn5jmjmwjkc" path="res://Assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/shelf_B_small_decorated.fbx" id="15_r43eo"]
-[ext_resource type="PackedScene" uid="uid://c1r2lawngurgr" path="res://Assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/shelf_B_small.fbx" id="16_undu7"]
-[ext_resource type="PackedScene" uid="uid://5s50qf3xjb2q" path="res://Assets/Low Poly Furniture/Electronics/Laptop.fbx" id="17_d1fq2"]
-[ext_resource type="PackedScene" uid="uid://13n5k8g3vq0e" path="res://Assets/Low Poly Furniture/Chairs/Chair E.fbx" id="18_g6vpr"]
-[ext_resource type="PackedScene" uid="uid://cupq5ccw25447" path="res://Assets/Low Poly Furniture/Drawers/Drawer B.fbx" id="19_4scg7"]
-[ext_resource type="PackedScene" uid="uid://bopmxbmn4ryco" path="res://Assets/KayKit_Adventurers_1.0_FREE/Characters/fbx/Rogue.fbx" id="29_ghfmf"]
+[ext_resource type="PackedScene" uid="uid://cwlei7skvi5j0" path="res://assets/Low Poly Furniture/Doors/Door A.fbx" id="1_jbd3b"]
+[ext_resource type="Script" path="res://level/Reception/reception.gd" id="1_o1335"]
+[ext_resource type="Texture2D" uid="uid://c80eom34ffdat" path="res://assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/couch-c22a85732141079514e5c6a5bcd2ef84_furniturebits_texture.png" id="2_v81fa"]
+[ext_resource type="Texture2D" uid="uid://n2u5yfj1dp6a" path="res://assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/armchair-e48995902994371637c660cdea0f72b3_furniturebits_texture.png" id="3_pq0sg"]
+[ext_resource type="Texture2D" uid="uid://b67b8jfstu1vd" path="res://assets/texture/floor/wood_table_worn_diff_1k.jpg" id="4_iqgws"]
+[ext_resource type="Texture2D" uid="uid://bpv0uppge3hv2" path="res://assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/table_medium-d11a86b47add4b4e3eb34d545239a058_furniturebits_texture.png" id="4_wt36l"]
+[ext_resource type="PackedScene" uid="uid://bc703y3iiss2p" path="res://assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/cactus_small_A.fbx" id="5_cpsnk"]
+[ext_resource type="Texture2D" uid="uid://dhuacwpndmpam" path="res://assets/texture/marble/marble_36_basecolor-1K.png" id="5_hfbg1"]
+[ext_resource type="Texture2D" uid="uid://dno8ihta4525o" path="res://assets/texture/floor/wood_floor_diff_1k.jpg" id="6_alnsx"]
+[ext_resource type="PackedScene" uid="uid://c83maqrtgy4s8" path="res://assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/cactus_small_B.fbx" id="6_gtg8l"]
+[ext_resource type="PackedScene" uid="uid://bam5muoxvn6jj" path="res://assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/cactus_medium_B.fbx" id="7_75mmn"]
+[ext_resource type="Texture2D" uid="uid://dbykiqe4ta0k3" path="res://assets/texture/wall/woodparquet_87-1K/woodparquet_87_basecolor-1K.png" id="7_clxfm"]
+[ext_resource type="Texture2D" uid="uid://dsyg7a7enbgt7" path="res://assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/chair_C-a83366440bdac33d2ac01cfde1085ad8_furniturebits_texture.png" id="8_j283d"]
+[ext_resource type="Texture2D" uid="uid://dsq0qmabi28sd" path="res://assets/texture/wall/woodparquet_87-1K/woodparquet_87_ambientocclusion-1K.png" id="8_rvr20"]
+[ext_resource type="Texture2D" uid="uid://tlfyv0mf8cap" path="res://assets/texture/wall/woodparquet_87-1K/woodparquet_87_height-1K.png" id="9_g36si"]
+[ext_resource type="PackedScene" uid="uid://drinykdg1wi0u" path="res://assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/lamp_standing.fbx" id="9_utc0n"]
+[ext_resource type="Texture2D" uid="uid://2l3rjqeymsib" path="res://assets/texture/wall/woodparquet_87-1K/woodparquet_87_metallic-1K.png" id="10_yp3jx"]
+[ext_resource type="Texture2D" uid="uid://b7qrq2v6b8k8x" path="res://assets/texture/wall/woodparquet_87-1K/woodparquet_87_normal-1K.png" id="11_wftip"]
+[ext_resource type="PackedScene" uid="uid://bkvu4uqvcp0df" path="res://assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/pictureframe_small_A.fbx" id="12_a5ljy"]
+[ext_resource type="Texture2D" uid="uid://c2su58ao8fyhi" path="res://assets/texture/wall/woodparquet_87-1K/woodparquet_87_roughness-1K.png" id="12_k20wm"]
+[ext_resource type="PackedScene" uid="uid://ydsqyb5ouphx" path="res://assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/book_single.fbx" id="13_ga13w"]
+[ext_resource type="Texture2D" uid="uid://b0urcnvwpgmny" path="res://assets/texture/carpet/1K-fabric_32-diffuse.jpg" id="13_xxtig"]
+[ext_resource type="PackedScene" uid="uid://dhm8gmmdv5qgq" path="res://assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/lamp_table.fbx" id="14_2rbkd"]
+[ext_resource type="Texture2D" uid="uid://pinip75dbvs0" path="res://assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/cactus_small_A-2fbba6c0a9a9e60f62ea4ad0f5a4cee9_furniturebits_texture.png" id="14_yioa4"]
+[ext_resource type="PackedScene" uid="uid://pcn5jmjmwjkc" path="res://assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/shelf_B_small_decorated.fbx" id="15_r43eo"]
+[ext_resource type="PackedScene" uid="uid://c1r2lawngurgr" path="res://assets/KayKit_Furniture_Bits_1.0_FREE/Assets/fbx/shelf_B_small.fbx" id="16_undu7"]
+[ext_resource type="PackedScene" uid="uid://5s50qf3xjb2q" path="res://assets/Low Poly Furniture/Electronics/Laptop.fbx" id="17_d1fq2"]
+[ext_resource type="PackedScene" uid="uid://13n5k8g3vq0e" path="res://assets/Low Poly Furniture/Chairs/Chair E.fbx" id="18_g6vpr"]
+[ext_resource type="PackedScene" uid="uid://cupq5ccw25447" path="res://assets/Low Poly Furniture/Drawers/Drawer B.fbx" id="19_4scg7"]
+[ext_resource type="PackedScene" uid="uid://d01joas52axb" path="res://scenes/objects/main_character.tscn" id="30_y6yhl"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_p4xme"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -45,7 +46,6 @@ glow_enabled = true
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j842a"]
 resource_name = "furniture_texture"
-albedo_color = Color(1, 1, 1, 1)
 albedo_texture = ExtResource("2_v81fa")
 metallic = 0.4
 roughness = 0.272166
@@ -92,7 +92,6 @@ points = PackedVector3Array(0.0144978, 0.00749998, 0.00949916, 0.0144949, 0.0074
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ah5oe"]
 resource_name = "furniture_texture"
-albedo_color = Color(1, 1, 1, 1)
 albedo_texture = ExtResource("3_pq0sg")
 metallic = 0.4
 roughness = 0.272166
@@ -136,7 +135,6 @@ points = PackedVector3Array(0.00849961, 0.00749998, 0.00949916, 0.00849785, 0.00
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jbsw0"]
 resource_name = "furniture_texture"
-albedo_color = Color(1, 1, 1, 1)
 albedo_texture = ExtResource("4_wt36l")
 metallic = 0.4
 metallic_specular = 0.1
@@ -191,7 +189,6 @@ points = PackedVector3Array(0.0144978, 0.00749998, 0.00949916, 0.0144949, 0.0074
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kx8y8"]
 resource_name = "furniture_texture"
-albedo_color = Color(1, 1, 1, 1)
 albedo_texture = ExtResource("8_j283d")
 metallic = 0.4
 roughness = 0.272166
@@ -272,7 +269,6 @@ material = SubResource("StandardMaterial3D_gwkj2")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jec7j"]
 resource_name = "furniture_texture"
-albedo_color = Color(1, 1, 1, 1)
 albedo_texture = ExtResource("14_yioa4")
 metallic = 0.4
 roughness = 0.272166
@@ -464,6 +460,7 @@ uv1_world_triplanar = true
 material = SubResource("StandardMaterial3D_1f06b")
 
 [node name="Reception" type="Node3D"]
+script = ExtResource("1_o1335")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_f7vc2")
@@ -656,7 +653,6 @@ transform = Transform3D(0.146531, 0, 0, 0, 0.574536, 0, 0, 0, 3.63848, 3.07842, 
 mesh = SubResource("BoxMesh_sdcla")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="map/furniture/Node3D/MeshInstance3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_olyiq")
 
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="map/furniture/Node3D"]
@@ -815,5 +811,4 @@ shape = SubResource("ConcavePolygonShape3D_417lq")
 transform = Transform3D(1.64511, 0, 0, 0, 1, 0, 0, 0, 4.76851, 0.20354, 0.141239, 0.0012548)
 mesh = SubResource("PlaneMesh_vsodw")
 
-[node name="Root Scene" parent="." instance=ExtResource("29_ghfmf")]
-transform = Transform3D(0.137341, 0, -0.990524, 0, 1, 0, 0.990524, 0, 0.137341, 3.3666, 0.00753522, 4.91737)
+[node name="Main character" parent="." instance=ExtResource("30_y6yhl")]

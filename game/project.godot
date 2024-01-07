@@ -21,6 +21,7 @@ InputMapMgr="*res://utils/input_map/input_map_mgr.gd"
 VolumeSettingsMgr="*res://utils/volume_settings_mgr.gd"
 TransitionMgr="*res://utils/transition_mgr.tscn"
 ScreenshotMgr="*res://utils/screenshot_mgr.tscn"
+QuestManager="*res://scripts/QuestManager.gd"
 
 [debug]
 
