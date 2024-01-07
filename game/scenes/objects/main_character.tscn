@@ -1,0 +1,104 @@
+[gd_scene load_steps=5 format=3 uid="uid://d01joas52axb"]
+
+[ext_resource type="PackedScene" uid="uid://bopmxbmn4ryco" path="res://assets/KayKit_Adventurers_1.0_FREE/Characters/fbx/Rogue.fbx" id="1_wkjdy"]
+[ext_resource type="Script" path="res://scenes/objects/main_character.gd" id="2_t1785"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ehbpf"]
+font_size = 32
+outline_size = 6
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_fxew1"]
+radius = 2.83602
+
+[node name="Main character" instance=ExtResource("1_wkjdy")]
+script = ExtResource("2_t1785")
+
+[node name="RootNode" parent="." index="0"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+
+[node name="Skeleton3D" parent="RootNode/Rig" index="0"]
+bones/1/position = Vector3(4.35612e-20, 0.00360311, 0)
+bones/2/rotation = Quaternion(-0.0435779, -0.00190264, -0.0435779, 0.998097)
+bones/3/rotation = Quaternion(1.85894e-09, -8.27831e-09, 0.0436194, 0.999048)
+bones/5/rotation = Quaternion(-0.663843, 0.0829024, -0.495784, 0.553749)
+bones/6/rotation = Quaternion(-8.17599e-09, -3.55232e-08, -0.563898, 0.825845)
+bones/8/rotation = Quaternion(-0.340142, -0.110288, 0.0933166, 0.92921)
+bones/9/rotation = Quaternion(0.0950664, -0.08489, -0.70134, 0.70134)
+bones/11/rotation = Quaternion(-0.650344, 0.0886466, 0.59723, 0.460988)
+bones/12/rotation = Quaternion(2.30056e-08, 5.22853e-08, 0.454757, 0.890616)
+bones/14/rotation = Quaternion(-0.365637, 0.129895, -0.0528388, 0.920133)
+bones/15/rotation = Quaternion(0.101435, 0.059989, 0.70218, 0.702179)
+bones/20/rotation = Quaternion(-8.04912e-16, 1.19209e-07, -4.44069e-16, 1)
+bones/21/position = Vector3(0.00170945, 0.00113587, 0.0002)
+bones/21/rotation = Quaternion(0.945631, -1.5637e-07, -2.05741e-10, 0.325241)
+bones/22/rotation = Quaternion(0.376612, 6.39599e-08, -2.61547e-07, 0.926371)
+bones/23/rotation = Quaternion(-0.644513, -2.83435e-08, 4.0312e-08, 0.764593)
+bones/24/rotation = Quaternion(1.24748e-09, 0.920355, -0.391084, 1.44151e-07)
+bones/25/position = Vector3(-0.00170945, 0.00113587, -0.0002)
+bones/25/rotation = Quaternion(0.998867, 2.34032e-07, 2.22758e-08, -0.047581)
+bones/26/rotation = Quaternion(0.620829, -5.41263e-08, 4.31149e-07, 0.783946)
+bones/27/rotation = Quaternion(-0.665675, 2.18694e-07, -3.17112e-07, 0.746241)
+bones/28/rotation = Quaternion(2.89709e-08, 0.767443, -0.641117, -1.97711e-07)
+bones/29/rotation = Quaternion(0.707107, -2.29302e-07, -4.60551e-08, 0.707107)
+bones/30/position = Vector3(0.00170945, 0.00175613, 0.00431855)
+bones/30/rotation = Quaternion(-0.866347, -4.81625e-08, -8.80645e-08, 0.499443)
+bones/36/rotation = Quaternion(0.707107, -3.82385e-08, 1.45009e-07, 0.707107)
+bones/37/position = Vector3(-0.00170945, -0.000391851, -0.000758826)
+bones/37/rotation = Quaternion(-0.401708, -9.3657e-08, -3.77511e-08, 0.915768)
+bones/43/position = Vector3(0.00453508, 0.0088116, -0.00883876)
+bones/44/position = Vector3(0.00512235, 0.00761954, -0.00156786)
+bones/44/rotation = Quaternion(-0.733178, -0.0207135, -0.679451, -0.0191958)
+bones/45/position = Vector3(-0.00453507, 0.0088116, -0.00883876)
+bones/46/position = Vector3(-0.00499014, 0.00745777, -0.00030852)
+bones/46/rotation = Quaternion(0.674362, -0.0851908, -0.727687, 0.0919269)
+
+[node name="Rogue_Cape" parent="RootNode/Rig/Skeleton3D" index="0"]
+transform = Transform3D(1, 7.45058e-09, -8.70575e-10, 1.45577e-09, 0.996195, 0.0871557, 8.07015e-10, -0.0871557, 0.996195, 0.000326824, 0.0116675, -0.000537582)
+
+[node name="Knife_Offhand" parent="RootNode/Rig/Skeleton3D" index="1"]
+transform = Transform3D(-0.0183808, 0.325064, 0.945513, 0.998405, 0.0564581, -4.72287e-07, -0.0533819, 0.944005, -0.325584, 0.00501969, 0.00611632, -0.00129071)
+
+[node name="Knife_Offhand" parent="RootNode/Rig/Skeleton3D/Knife_Offhand" index="0"]
+visible = false
+
+[node name="1H_Crossbow" parent="RootNode/Rig/Skeleton3D" index="2"]
+transform = Transform3D(-0.0396716, -0.154516, -0.987193, -0.968584, 0.248688, -1.59403e-07, 0.245502, 0.95618, -0.159527, -0.00480585, 0.00702963, -0.000162749)
+
+[node name="1H_Crossbow" parent="RootNode/Rig/Skeleton3D/1H_Crossbow" index="0"]
+visible = false
+
+[node name="Throwable" parent="RootNode/Rig/Skeleton3D" index="3"]
+transform = Transform3D(-0.0396716, -0.154516, -0.987193, -0.968584, 0.248688, -1.59403e-07, 0.245502, 0.95618, -0.159527, -0.00514187, 0.00649023, 0.00191664)
+
+[node name="Throwable" parent="RootNode/Rig/Skeleton3D/Throwable" index="0"]
+visible = false
+
+[node name="Knife" parent="RootNode/Rig/Skeleton3D" index="4"]
+transform = Transform3D(-0.0396716, -0.154516, -0.987193, -0.968584, 0.248688, -1.59403e-07, 0.245502, 0.95618, -0.159527, -0.00486336, 0.00604198, 0.000193161)
+
+[node name="Knife" parent="RootNode/Rig/Skeleton3D/Knife" index="0"]
+visible = false
+
+[node name="2H_Crossbow" parent="RootNode/Rig/Skeleton3D" index="5"]
+transform = Transform3D(-0.0396716, -0.154516, -0.987193, -0.968584, 0.248688, -1.59403e-07, 0.245502, 0.95618, -0.159527, -0.00480585, 0.00702963, -0.000162749)
+
+[node name="2H_Crossbow" parent="RootNode/Rig/Skeleton3D/2H_Crossbow" index="0"]
+visible = false
+
+[node name="Camera3D" type="Camera3D" parent="." index="2"]
+transform = Transform3D(1, 0, 0, 0, 0.82851, 0.559974, 0, -0.559974, 0.82851, 0, 5.66266, 4.94657)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." index="3"]
+
+[node name="Label" type="Label" parent="CanvasLayer" index="0"]
+offset_left = 18.0
+offset_top = 19.0
+offset_right = 183.0
+offset_bottom = 67.0
+label_settings = SubResource("LabelSettings_ehbpf")
+
+[node name="Area3D" type="Area3D" parent="." index="4"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" index="0"]
+shape = SubResource("SphereShape3D_fxew1")

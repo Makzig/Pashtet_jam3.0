@@ -1,0 +1,73 @@
+[gd_scene load_steps=3 format=3 uid="uid://bmuasfjw6stbu"]
+
+[ext_resource type="Script" path="res://Scenes/GUI/Settings.gd" id="1_056wb"]
+[ext_resource type="Theme" path="res://Assets/MainTheme.tres" id="1_he2fb"]
+
+[node name="Settings" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_056wb")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.968627, 0.533333, 1, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Video" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_he2fb")
+theme_override_font_sizes/font_size = 50
+text = "Видео
+"
+
+[node name="Sound" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_he2fb")
+theme_override_font_sizes/font_size = 50
+text = "Звук
+"
+
+[node name="Back" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0.756863)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -40.0
+offset_top = 160.0
+offset_right = 45.0
+offset_bottom = 203.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_he2fb")
+theme_override_font_sizes/font_size = 25
+text = "Назад
+"
+
+[connection signal="pressed" from="VBoxContainer/Video" to="." method="_on_video_pressed"]
+[connection signal="pressed" from="VBoxContainer/Sound" to="." method="_on_sound_pressed"]
+[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]
